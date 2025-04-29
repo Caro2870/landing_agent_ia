@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentAI - Agentes Inteligentes para Impulsar tu Crecimiento</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>AgentAI</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#templates">Plantillas</a></li>
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#pricing">Precios</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact" class="btn btn-outline">Contacto</a></li>
+                <li><a href="#create" class="btn btn-primary">Crear Agente Gratis</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Agentes inteligentes para impulsar tu crecimiento</h1>
+                <p>Únete a las empresas que usan AgentAI para crear agentes en WhatsApp, automatizar interacciones, integrar herramientas clave y construir negocios más ágiles, rentables y centrados en el cliente.</p>
+                <a href="#create" class="btn btn-primary btn-lg">Crea un agente gratis</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.png" alt="Agentes Inteligentes en acción">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Acerca de AgentAI</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>AgentAI es la plataforma que permite a startups, mypes y empresas en crecimiento crear agentes inteligentes en WhatsApp de forma rápida, flexible y sin complicaciones. Nuestra misión es facilitar la automatización conversacional, integrando herramientas clave y optimizando la conexión con los clientes, todo sin necesidad de programación.</p>
+                    <p>Únete a la revolución de los agentes inteligentes. Únete a AgentAI.</p>
+                    <a href="#create" class="btn btn-secondary">Comienza ahora</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-image.png" alt="Plataforma AgentAI">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Section -->
+    <section id="templates" class="templates">
+        <div class="container">
+            <div class="section-header">
+                <h2>Selecciona una plantilla para tu agente</h2>
+            </div>
+            <div class="template-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="business">Negocios</button>
+                <button class="filter-btn" data-filter="education">Educación</button>
+                <button class="filter-btn" data-filter="creativity">Creatividad</button>
+                <button class="filter-btn" data-filter="technology">Tecnología</button>
+                <button class="filter-btn" data-filter="custom">Personalizado</button>
+            </div>
+            <div class="templates-grid">
+                <div class="template-card" data-category="business">
+                    <div class="card-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Atención al Cliente</h3>
+                    <p class="template-type">Plantilla: Negocios</p>
+                    <p>Resuelve dudas y problemas con empatía para mejorar la satisfacción del cliente.</p>
+                </div>
+                <div class="template-card" data-category="business">
+                    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Asistente de Ventas</h3>
+                    <p class="template-type">Plantilla: Negocios</p>
+                    <p>Identifica necesidades, recomienda productos y cierra ventas con técnicas efectivas.</p>
+                </div>
+                <div class="template-card" data-category="education">
+                    <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Tutor Educativo</h3>
+                    <p class="template-type">Plantilla: Educación</p>
+                    <p>Adapta explicaciones al nivel del estudiante, usando ejemplos prácticos y fomentando el pensamiento crítico.</p>
+                </div>
+                <div class="template-card" data-category="creativity">
+                    <div class="card-icon"><i class="fas fa-feather-alt"></i></div>
+                    <h3>Escritor Creativo</h3>
+                    <p class="template-type">Plantilla: Creatividad</p>
+                    <p>Crea contenido original con narrativas atractivas y personajes memorables en diversos géneros.</p>
+                </div>
+                <div class="template-card" data-category="technology">
+                    <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Soporte Técnico</h3>
+                    <p class="template-type">Plantilla: Tecnología</p>
+                    <p>Diagnostica y resuelve problemas tecnológicos con instrucciones claras y adaptadas al usuario.</p>
+                </div>
+                <div class="template-card" data-category="custom">
+                    <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Personalizado</h3>
+                    <p class="template-type">Plantilla: Personalizado</p>
+                    <p>Configura el comportamiento exacto del agente según tus necesidades específicas.</p>
+                </div>
+            </div>
+            <div class="template-cta">
+                <a href="#create" class="btn btn-primary">Crea un agente gratis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Create Agent Section -->
+    <section id="create" class="create-agent">
+        <div class="container">
+            <div class="section-header">
+                <h2>Crea tu agente inteligente</h2>
+            </div>
+            <div class="create-form">
+                <div class="form-field">
+                    <label for="agent-name">Nombre del agente</label>
+                    <input type="text" id="agent-name" placeholder="Ej: Asistente de Ventas">
+                </div>
+                <div class="form-field">
+                    <label for="agent-description">Describe cómo debe comportarse tu agente...</label>
+                    <textarea id="agent-description" rows="5" placeholder="Ej: Un agente que pueda responder preguntas sobre mis productos, procesar pedidos y dar seguimiento a clientes..."></textarea>
+                </div>
+                <button class="btn btn-primary btn-block">Crear agente gratis</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beneficios de nuestros agentes</h2>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Atención 24/7</h3>
+                    <p>Tus agentes atienden a tus clientes en cualquier momento, sin descansos ni tiempos de espera.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Implementación rápida</h3>
+                    <p>Despliega tu agente en minutos y comienza a automatizar tareas y responder consultas al instante.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-th-large"></i></div>
+                    <h3>Plantillas pre-configuradas</h3>
+                    <p>Elige entre una variedad de plantillas especializadas para diferentes sectores y casos de uso.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Seguridad garantizada</h3>
+                    <p>Todos los datos están protegidos con los más altos estándares de seguridad y privacidad.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Análisis de conversaciones</h3>
+                    <p>Obtén insights valiosos de las conversaciones para mejorar tus procesos y la satisfacción del cliente.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-link"></i></div>
+                    <h3>Integraciones flexibles</h3>
+                    <p>Conecta tu agente con tus herramientas favoritas como Google Sheets, Notion y más.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recomendaciones de AgentAI</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Crear mi agente de IA con AgentAI fue rapidísimo y súper fácil. En minutos ya lo tenía listo para usar."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/testimonial1.jpg" alt="Kevin Vilcherrez">
+                        </div>
+                        <div class="author-info">
+                            <h4>Kevin Vilcherrez</h4>
+                            <p>Creador de Boty, Agente IA entrenado en temas de creación y crecimiento de productos digitales</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"A través de nuestro bot, hemos podido dar respuesta mucho más rápida a nuestros usuarios y con la misma tonalidad como una persona más del equipo, AgentAI ha mejorado nuestra calidad de atención y nuestra asistencia a clientes y usuarios."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/testimonial2.jpg" alt="Luis Escobedo">
+                        </div>
+                        <div class="author-info">
+                            <h4>Luis Escobedo</h4>
+                            <p>Creador del bot de PetClub</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"AgentAI es nuestro mejor socio para acelerar impacto en agentes de cambio de América Latina!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/testimonial3.jpg" alt="Diego Padilla">
+                        </div>
+                        <div class="author-info">
+                            <h4>Diego Padilla</h4>
+                            <p>Creador del agente de Equilibria - educación ambiental</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Planes de precios que se adaptan a ti</h2>
+                <p>AgentAI te ayuda a gestionar la interacción con tus clientes. Elige el plan que más se ajuste a tus necesidades.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>INICIAL</h3>
+                        <div class="price">$20<span>/mes</span></div>
+                        <p>Comience con la creación sencilla de un agente.</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Agente avanzado</li>
+                            <li><i class="fas fa-check"></i> Facturación mensual</li>
+                            <li><i class="fas fa-check"></i> Agente en Whatsapp</li>
+                            <li><i class="fas fa-check"></i> 1000 conversaciones mensuales</li>
+                            <li><i class="fas fa-check"></i> Plantillas y automatizaciones</li>
+                            <li><i class="fas fa-check"></i> Integraciones (Googlesheets, Notion)</li>
+                            <li><i class="fas fa-check"></i> Soporte premium</li>
+                            <li><i class="fas fa-check"></i> Audio, Imágenes y PDF</li>
+                            <li><i class="fas fa-check"></i> 2.500.000 tokens</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn btn-secondary">Empieza ya</a>
+                    </div>
+                </div>
+
+                <div class="pricing-card recommended">
+                    <div class="pricing-tag">RECOMENDADO</div>
+                    <div class="pricing-header">
+                        <h3>ESTÁNDAR</h3>
+                        <div class="price">$30<span>/mes</span></div>
+                        <p>Optimiza tus agentes con mayor capacidad y soporte.</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Agente avanzado</li>
+                            <li><i class="fas fa-check"></i> Facturación mensual</li>
+                            <li><i class="fas fa-check"></i> Agente en Whatsapp</li>
+                            <li><i class="fas fa-check"></i> 2000 conversaciones mensuales</li>
+                            <li><i class="fas fa-check"></i> Plantillas y automatizaciones</li>
+                            <li><i class="fas fa-check"></i> Integraciones (Googlesheets, Notion)</li>
+                            <li><i class="fas fa-check"></i> Soporte premium</li>
+                            <li><i class="fas fa-check"></i> Audio, Imágenes y PDF</li>
+                            <li><i class="fas fa-check"></i> 5.000.000 tokens</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn btn-primary">Pruébalo ahora</a>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>AGENTE WABA</h3>
+                        <div class="price">$90<span>/mes</span></div>
+                        <p>Automatiza tu negocio con Whatsapp Business.</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Agente avanzado</li>
+                            <li><i class="fas fa-check"></i> Facturación mensual</li>
+                            <li><i class="fas fa-check"></i> Agente en Whatsapp Business</li>
+                            <li><i class="fas fa-check"></i> 5000 conversaciones mensuales</li>
+                            <li><i class="fas fa-check"></i> Plantillas y automatizaciones</li>
+                            <li><i class="fas fa-check"></i> Soporte y diseño premium</li>
+                            <li><i class="fas fa-check"></i> Audio, Imágenes y PDF</li>
+                            <li><i class="fas fa-check"></i> Notificaciones para iniciar conversación</li>
+                            <li><i class="fas fa-check"></i> 10.000.000 tokens</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn btn-secondary">Pruébalo ahora</a>
+                    </div>
+                </div>
+
+                <div class="pricing-card enterprise">
+                    <div class="pricing-header">
+                        <h3>ENTERPRISE</h3>
+                        <div class="price">Contacto<span></span></div>
+                        <p>Soluciones personalizadas para empresas sin límites.</p>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Agentes ilimitados</li>
+                            <li><i class="fas fa-check"></i> Facturación mensual o anual</li>
+                            <li><i class="fas fa-check"></i> Conversaciones ilimitadas</li>
+                            <li><i class="fas fa-check"></i> Bases de datos personalizadas</li>
+                            <li><i class="fas fa-check"></i> Todas las capacidades</li>
+                            <li><i class="fas fa-check"></i> Integraciones a medida</li>
+                            <li><i class="fas fa-check"></i> Notificaciones con Meta</li>
+                            <li><i class="fas fa-check"></i> Diseño exclusivo de agentes</li>
+                            <li><i class="fas fa-check"></i> Tokens ilimitados</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#contact" class="btn btn-secondary">¡Conversemos!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Preguntas Frecuentes</h2>
+                <p>Todo lo que necesitas saber sobre AgentAI y cómo puede ayudar a tu negocio</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Qué es AgentAI y para qué sirve?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AgentAI es una plataforma que te permite crear y desplegar agentes inteligentes en WhatsApp y otras plataformas para automatizar interacciones con tus clientes, contestar preguntas frecuentes, procesar pedidos y mucho más. Todo esto sin necesidad de conocimientos técnicos o programación.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿En qué se diferencia AgentAI de otras herramientas de automatización?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>AgentAI destaca por su facilidad de uso, rapidez de implementación y capacidad de personalización. Nuestros agentes utilizan tecnología de IA avanzada y son capaces de comprender el contexto de las conversaciones, adaptarse al tono de comunicación de tu empresa y aprender continuamente para ofrecer una experiencia cada vez más natural y efectiva.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo interactúa mi agente con los usuarios?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tu agente puede comunicarse a través de WhatsApp, con capacidad para enviar y recibir mensajes de texto, imágenes, documentos PDF y notas de voz. El agente responde de forma natural y personalizada según la configuración que hayas establecido, adaptándose al tono y estilo de tu marca.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Qué tipo de procesos puedo automatizar con AgentAI?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Puedes automatizar una amplia variedad de procesos como atención al cliente, ventas, reservas, seguimiento de pedidos, respuestas a preguntas frecuentes, recolección de datos, calificaciones de servicio, generación de leads, soporte técnico básico y mucho más. Nuestras plantillas preconfiguradas te ayudan a implementar rápidamente estos casos de uso.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cuánto cuesta usar AgentAI?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ofrecemos diferentes planes según las necesidades de tu negocio, comenzando en $20 al mes para el plan básico. Puedes consultar todos los detalles en nuestra sección de precios. También contamos con planes personalizados para empresas con necesidades específicas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Hay una versión de prueba gratuita?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, puedes crear un agente gratuito para probar nuestra plataforma y experimentar con sus capacidades. La versión gratuita tiene algunas limitaciones en cuanto al número de mensajes y funcionalidades, pero te permitirá evaluar si AgentAI es lo que tu negocio necesita.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-more">
+                <h3>¿Tienes más preguntas? <a href="#contact">Contáctanos</a></h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Tienes consultas adicionales?</h2>
+                <p>Te ayudaremos a dirigir tus consultas al equipo adecuado.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>Configurar tu propio agente es la forma más rápida y eficiente de empezar a usar AgentAI. Sin embargo, si tu empresa necesita integrar múltiples herramientas o tiene necesidades avanzadas, nuestro equipo estará encantado de guiarte. Cuéntanos sobre tu proyecto y te conectaremos con el área adecuada.</p>
+                    <p class="highlight">Solo necesitamos algunos datos.</p>
+                </div>
+                <div class="contact-form">
+                    <div class="form-field">
+                        <label for="email">Correo</label>
+                        <input type="email" id="email" placeholder="tu@email.com">
+                    </div>
+                    <div class="form-field">
+                        <label for="whatsapp">Nro de WhatsApp</label>
+                        <input type="tel" id="whatsapp" placeholder="+51 999999999">
+                    </div>
+                    <div class="form-field">
+                        <label for="country">País o región</label>
+                        <input type="text" id="country" placeholder="Ej: Perú">
+                    </div>
+                    <button class="btn btn-primary btn-block">Enviar consulta</button>
+                    <p class="privacy-note">Al enviar este formulario, aceptas nuestra <a href="#">Política de privacidad</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>NexusBot</h2>
+                    <p>Conectando negocios con clientes a través de la inteligencia artificial</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Dirección: Av. Innovación 123, Lima, PE</p>
+                    <p><i class="fas fa-phone"></i> Teléfono: +51 923 456 789</p>
+                    <p><i class="fas fa-envelope"></i> Correo: contacto@nexusbot.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Política de privacidad</a>
+                    <span class="link-divider">·</span>
+                    <a href="#">Términos de servicio</a>
+                    <span class="link-divider">·</span>
+                    <a href="#">Cookies</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 NexusBot. Innovación en Inteligencia Artificial.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Switchers -->
+    <div class="switchers">
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+            <button class="language-btn" data-lang="es">ES</button>
+            <button class="language-btn" data-lang="en">EN</button>
+            <button class="language-btn" data-lang="pt">PT</button>
+        </div>
+        
+        <!-- Theme Switcher -->
+        <div class="theme-switcher">
+            <button class="theme-btn" id="theme-toggle">
+                <i class="fas fa-sun light-icon"></i>
+                <i class="fas fa-moon dark-icon"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating CTA -->
+    <div class="floating-cta">
+        <button class="floating-cta-btn">
+            <i class="fas fa-robot"></i>
+            <span>Crear bot ahora</span>
+        </button>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar"></div>
+
+    <!-- Cookies Notice -->
+    <div class="cookies-notice" id="cookies-notice">
+        <p>Utilizamos cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestra <a href="#">política de cookies</a>.</p>
+        <button class="btn btn-secondary cookies-btn">Aceptar</button>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/translate.js"></script>
+</body>
+</html>
